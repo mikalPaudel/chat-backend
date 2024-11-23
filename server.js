@@ -15,8 +15,8 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose.connect("mongodb+srv://mikalpaudel58:mikal@cluster0.pt8fq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
-	useNewUrlParser: true,
-	useUnifiedTopology: true,
+	// useNewUrlParser: true,
+	// useUnifiedTopology: true,
 });
 
 // Routes
